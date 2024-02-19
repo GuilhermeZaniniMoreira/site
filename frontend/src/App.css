@@ -2,14 +2,12 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  overflow-y: scroll;
   overflow-x: hidden;
   font-family: 'Fira Code', sans-serif;
 }
 
 .app {
   display: flex;
-  overflow-y: scroll;
 }
 
 .name {
@@ -87,7 +85,7 @@ body, html {
   border-radius: 50%;
   width: 300px;
   height: 300px;
-  margin-top: 20%;
+  margin-top: 20vh;
   margin-bottom: 25px;
 }
 
