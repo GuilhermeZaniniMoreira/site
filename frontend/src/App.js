@@ -1,9 +1,6 @@
 import React from 'react';
-import { Chart as ChartJS, registerables } from 'chart.js';
 import { FaJs, FaNodeJs, FaReact, FaDatabase, FaFlask, FaAws, FaPython, FaDocker, FaLinkedin, FaGithub } from 'react-icons/fa';
 import './App.css';
-
-ChartJS.register(...registerables);
 
 const skills = [
   { name: 'JavaScript', icon: <FaJs /> },
