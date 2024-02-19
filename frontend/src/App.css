@@ -89,11 +89,11 @@ body, html {
   margin-bottom: 25px;
 }
 
-@media only screen and (min-height: 1080px) {
+@media only screen and (min-width: 1920px) {
   .profile-image {
     border-radius: 50%;
-    width: 300px;
-    height: 300px;
+    width: 350px;
+    height: 350px;
     margin-top: 30vh;
     margin-bottom: 25px;
   }  
